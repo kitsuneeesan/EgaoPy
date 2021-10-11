@@ -51,7 +51,7 @@ class Egao():
 
         # Texting Image
         draw = ImageDraw.Draw(img)
-        draw.text((375, 30), "sono-egao.herokuapp.com", (41, 41, 41), font=Consola16)
+        draw.text((395, 30), "egao-py.herokuapp.com", (41, 41, 41), font=Consola16)
         draw.text((20, 11), self.date.strftime("%A %d %B %Y"), (41, 41, 41), font=JakobsHandwriting28)
         draw.text((506, 9), "その笑顔", (41, 41, 41), font=SanafonMugi18)
         
