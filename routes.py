@@ -17,6 +17,10 @@ def uploader_file():
 @app.route('/')
 def index():
     return render_template('/index.html')
+    
+@app.route('/')
+def google_verif():
+    return render_template('/googlef3bd9b0ca627d401.html')
 
 @app.errorhandler(404) 
 def invalid_route(e): 
